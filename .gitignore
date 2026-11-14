@@ -1,0 +1,48 @@
+
+# Unity temporary files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.pdb
+*.mdb
+
+# Unity generated files
+ExportedObj/
+*.unityproj
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Blender backup files
+*.blend1
+*.blend1.meta
+*.blend2
+*.blend2.meta
+
+# Generated builds
+*.apk
+*.aab
+*.unitypackage
+
+# Operating system
+.DS_Store
+Thumbs.db

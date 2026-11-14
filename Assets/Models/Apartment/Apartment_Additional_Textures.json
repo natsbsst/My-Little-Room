@@ -1,0 +1,12 @@
+{
+  "textures": [
+    "PC_Boot_Texture.png",
+    "PC_Desktop_Texture.png",
+    "TV_Boot_Image.png",
+    "TV_Cartoon_Image.png",
+    "TV_CozyNews_Image.png",
+    "TV_Music_Image.png",
+    "TV_Nature_Image.png"
+  ],
+  "purpose": "Original PC and TV startup/desktop/channel assets for later Unity interactions"
+}

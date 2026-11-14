@@ -1,0 +1,2099 @@
+{
+  "fbx": "D:\\safe\\mylittleroom\\Assets\\Models\\Apartment\\MyLittleRoom_Apartment.fbx",
+  "objects": 1952,
+  "meshes": 1939,
+  "polygons": 61589,
+  "textures": [
+    "Baked_Floor_Bedroom_7x7_BaseColor.png",
+    "Baked_Floor_KitchenLiving_10x8_BaseColor.png",
+    "Baked_Keyboard_BaseColor.png",
+    "Baked_KL_North_Wall_Finish_BaseColor.png",
+    "Baked_KL_North_Wall_Finish_Normal.png",
+    "Baked_KL_East_Wall_Finish_BaseColor.png",
+    "Baked_KL_East_Wall_Finish_Normal.png",
+    "Baked_KL_West_Wall_Finish_BaseColor.png",
+    "Baked_KL_West_Wall_Finish_Normal.png",
+    "Baked_KL_South_Finish_0_BaseColor.png",
+    "Baked_KL_South_Finish_0_Normal.png",
+    "Baked_KL_South_Finish_4_05_BaseColor.png",
+    "Baked_KL_South_Finish_4_05_Normal.png",
+    "Baked_KL_Door_Header_Finish_BaseColor.png",
+    "Baked_KL_Door_Header_Finish_Normal.png",
+    "Baked_Entrance_Woven_Mat_BaseColor.png",
+    "Baked_Entrance_Woven_Mat_Normal.png"
+  ],
+  "materials": [
+    {
+      "name": "URP_Bedroom_Light_Oak_Parquet_Floor_Bedroom_7x7",
+      "base": [
+        0.550000011920929,
+        0.3199999928474426,
+        0.15000000596046448,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_Floor_Bedroom_7x7_BaseColor.png",
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Cream",
+      "base": [
+        0.8799999952316284,
+        0.800000011920929,
+        0.6499999761581421,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Warm_Parquet_Floor_KitchenLiving_10x8",
+      "base": [
+        0.550000011920929,
+        0.3199999928474426,
+        0.15000000596046448,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_Floor_KitchenLiving_10x8_BaseColor.png",
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Apartment_Light_Walls",
+      "base": [
+        0.8799999952316284,
+        0.8500000238418579,
+        0.7799999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Warm_Milk",
+      "base": [
+        0.9300000071525574,
+        0.8799999952316284,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Trim_Ivory",
+      "base": [
+        0.9700000286102295,
+        0.9399999976158142,
+        0.8700000047683716,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Milk",
+      "base": [
+        0.949999988079071,
+        0.9100000262260437,
+        0.8199999928474426,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Oak",
+      "base": [
+        0.6200000047683716,
+        0.4099999964237213,
+        0.23000000417232513,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Rose",
+      "base": [
+        0.8299999833106995,
+        0.4000000059604645,
+        0.5199999809265137,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Cream",
+      "base": [
+        0.9399999976158142,
+        0.8700000047683716,
+        0.7099999785423279,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Blush",
+      "base": [
+        0.9599999785423279,
+        0.6899999976158142,
+        0.7300000190734863,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Sky",
+      "base": [
+        0.4300000071525574,
+        0.699999988079071,
+        0.8399999737739563,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Light_Oak",
+      "base": [
+        0.7300000190734863,
+        0.5799999833106995,
+        0.38999998569488525,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Dark",
+      "base": [
+        0.06499999761581421,
+        0.10000000149011612,
+        0.14000000059604645,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_PC_Screen_On",
+      "base": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.3799999952316284,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_PC_Keyboard_Backlit_Keyboard",
+      "base": [
+        0.800000011920929,
+        0.5899999737739563,
+        0.6399999856948853,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.3799999952316284,
+      "alpha": 1.0,
+      "emission": [
+        0.25,
+        0.5199999809265137,
+        0.699999988079071,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_Keyboard_BaseColor.png",
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Sage",
+      "base": [
+        0.38999998569488525,
+        0.6200000047683716,
+        0.46000000834465027,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Powder_Wall",
+      "base": [
+        0.8600000143051147,
+        0.6100000143051147,
+        0.6600000262260437,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Brass",
+      "base": [
+        0.5899999737739563,
+        0.4300000071525574,
+        0.20999999344348907,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_PC_Power_Indicator",
+      "base": [
+        0.3400000035762787,
+        0.4300000071525574,
+        0.47999998927116394,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.3799999952316284,
+      "alpha": 1.0,
+      "emission": [
+        0.20000000298023224,
+        0.6000000238418579,
+        0.8500000238418579,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Mirror_Silver",
+      "base": [
+        0.8600000143051147,
+        0.9100000262260437,
+        0.9399999976158142,
+        1.0
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07999999821186066,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Curtain_Linen",
+      "base": [
+        0.9100000262260437,
+        0.7699999809265137,
+        0.7599999904632568,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Warm_Emissive",
+      "base": [
+        1.0,
+        0.6499999761581421,
+        0.30000001192092896,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.6499999761581421,
+        0.30000001192092896,
+        1.0
+      ],
+      "emissionStrength": 3.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Botanical_Soft_Stem",
+      "base": [
+        0.30000001192092896,
+        0.3199999928474426,
+        0.14000000059604645,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Botanical_Green_0",
+      "base": [
+        0.1899999976158142,
+        0.36000001430511475,
+        0.17000000178813934,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Botanical_Green_1",
+      "base": [
+        0.2800000011920929,
+        0.46000000834465027,
+        0.2199999988079071,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Botanical_Green_2",
+      "base": [
+        0.3700000047683716,
+        0.5299999713897705,
+        0.28999999165534973,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Botanical_Green_3",
+      "base": [
+        0.23999999463558197,
+        0.4099999964237213,
+        0.25,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Panorama_Sheer_Ivory",
+      "base": [
+        0.89,
+        0.94,
+        0.93,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.7,
+      "alpha": 0.16,
+      "emission": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bedroom_Window_Glass",
+      "base": [
+        0.89,
+        0.94,
+        0.93,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.7,
+      "alpha": 0.08,
+      "emission": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "emissionStrength": 0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_NYC_Stone_0",
+      "base": [
+        0.46000000834465027,
+        0.5099999904632568,
+        0.5799999833106995,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_NYC_Stone_1",
+      "base": [
+        0.5699999928474426,
+        0.5699999928474426,
+        0.6000000238418579,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_NYC_Day_Window",
+      "base": [
+        0.5199999809265137,
+        0.7099999785423279,
+        0.8199999928474426,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_NYC_Stone_2",
+      "base": [
+        0.46000000834465027,
+        0.3700000047683716,
+        0.3499999940395355,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_NYC_Stone_3",
+      "base": [
+        0.36000001430511475,
+        0.46000000834465027,
+        0.5299999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7200000286102295,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_NYC_DAY_Sky",
+      "base": [
+        0.41999998688697815,
+        0.699999988079071,
+        0.949999988079071,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "alpha": 1.0,
+      "emission": [
+        0.41999998688697815,
+        0.699999988079071,
+        0.949999988079071,
+        1.0
+      ],
+      "emissionStrength": 0.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Oak",
+      "base": [
+        0.6299999952316284,
+        0.4300000071525574,
+        0.23999999463558197,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Porcelain",
+      "base": [
+        0.949999988079071,
+        0.9200000166893005,
+        0.8399999737739563,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Brass",
+      "base": [
+        0.6499999761581421,
+        0.44999998807907104,
+        0.18000000715255737,
+        1.0
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Clear_Glass",
+      "base": [
+        0.89,
+        0.94,
+        0.93,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.10000000149011612,
+      "alpha": 0.08,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Warm_Beige",
+      "base": [
+        0.7599999904632568,
+        0.6399999856948853,
+        0.49000000953674316,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Sage",
+      "base": [
+        0.38999998569488525,
+        0.550000011920929,
+        0.38999998569488525,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Terracotta",
+      "base": [
+        0.6200000047683716,
+        0.3199999928474426,
+        0.20999999344348907,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Mirror",
+      "base": [
+        0.8299999833106995,
+        0.8799999952316284,
+        0.9100000262260437,
+        1.0
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Cocoa",
+      "base": [
+        0.2199999988079071,
+        0.12999999523162842,
+        0.07999999821186066,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_Bathroom_Warm_Glow",
+      "base": [
+        1.0,
+        0.7900000214576721,
+        0.47999998927116394,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.6499999761581421,
+        0.30000001192092896,
+        1.0
+      ],
+      "emissionStrength": 3.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Cream",
+      "base": [
+        0.8700000047683716,
+        0.8100000023841858,
+        0.6899999976158142,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Oak",
+      "base": [
+        0.5699999928474426,
+        0.3700000047683716,
+        0.20000000298023224,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Charcoal",
+      "base": [
+        0.04500000178813934,
+        0.05000000074505806,
+        0.04500000178813934,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Sink",
+      "base": [
+        0.41999998688697815,
+        0.46000000834465027,
+        0.4300000071525574,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Walnut",
+      "base": [
+        0.23999999463558197,
+        0.12999999523162842,
+        0.07500000298023224,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Sage",
+      "base": [
+        0.4000000059604645,
+        0.5,
+        0.3199999928474426,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Brass",
+      "base": [
+        0.6200000047683716,
+        0.4399999976158142,
+        0.20999999344348907,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Oven_Glass",
+      "base": [
+        0.10999999940395355,
+        0.14000000059604645,
+        0.14000000059604645,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Dusty_Rose",
+      "base": [
+        0.699999988079071,
+        0.4699999988079071,
+        0.44999998807907104,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KitchenLiving_Light_Warm_Beige_Wallpaper_KL_North_Wall_Finish",
+      "base": [
+        0.8299999833106995,
+        0.7649999856948853,
+        0.6549999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9100000262260437,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_KL_North_Wall_Finish_BaseColor.png",
+      "normalTexture": "Baked_KL_North_Wall_Finish_Normal.png"
+    },
+    {
+      "name": "URP_KitchenLiving_Light_Warm_Beige_Wallpaper_KL_East_Wall_Finish",
+      "base": [
+        0.8299999833106995,
+        0.7649999856948853,
+        0.6549999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9100000262260437,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_KL_East_Wall_Finish_BaseColor.png",
+      "normalTexture": "Baked_KL_East_Wall_Finish_Normal.png"
+    },
+    {
+      "name": "URP_KitchenLiving_Light_Warm_Beige_Wallpaper_KL_West_Wall_Finish",
+      "base": [
+        0.8299999833106995,
+        0.7649999856948853,
+        0.6549999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9100000262260437,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_KL_West_Wall_Finish_BaseColor.png",
+      "normalTexture": "Baked_KL_West_Wall_Finish_Normal.png"
+    },
+    {
+      "name": "URP_KitchenLiving_Light_Warm_Beige_Wallpaper_KL_South_Finish_0",
+      "base": [
+        0.8299999833106995,
+        0.7649999856948853,
+        0.6549999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9100000262260437,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_KL_South_Finish_0_BaseColor.png",
+      "normalTexture": "Baked_KL_South_Finish_0_Normal.png"
+    },
+    {
+      "name": "URP_KitchenLiving_Light_Warm_Beige_Wallpaper_KL_South_Finish_4_05",
+      "base": [
+        0.8299999833106995,
+        0.7649999856948853,
+        0.6549999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9100000262260437,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_KL_South_Finish_4_05_BaseColor.png",
+      "normalTexture": "Baked_KL_South_Finish_4_05_Normal.png"
+    },
+    {
+      "name": "URP_KitchenLiving_Light_Warm_Beige_Wallpaper_KL_Door_Header_Finish",
+      "base": [
+        0.8299999833106995,
+        0.7649999856948853,
+        0.6549999713897705,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9100000262260437,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_KL_Door_Header_Finish_BaseColor.png",
+      "normalTexture": "Baked_KL_Door_Header_Finish_Normal.png"
+    },
+    {
+      "name": "URP_KL_Rug",
+      "base": [
+        0.6200000047683716,
+        0.5299999713897705,
+        0.4000000059604645,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_TV_On",
+      "base": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.44999998807907104,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Fire_Glow",
+      "base": [
+        1.0,
+        0.3499999940395355,
+        0.054999999701976776,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.1899999976158142,
+        0.02500000037252903,
+        1.0
+      ],
+      "emissionStrength": 2.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Warm_Lamp",
+      "base": [
+        1.0,
+        0.800000011920929,
+        0.5199999809265137,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.6399999856948853,
+        0.30000001192092896,
+        1.0
+      ],
+      "emissionStrength": 1.5,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Entrance_Warm_Oak",
+      "base": [
+        0.5699999928474426,
+        0.36000001430511475,
+        0.1899999976158142,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Entrance_Woven_Beige_Entrance_Woven_Mat",
+      "base": [
+        0.4300000071525574,
+        0.33000001311302185,
+        0.2199999988079071,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Baked_Entrance_Woven_Mat_BaseColor.png",
+      "normalTexture": "Baked_Entrance_Woven_Mat_Normal.png"
+    },
+    {
+      "name": "URP_KL_Book_Sage_Cloth",
+      "base": [
+        0.3400000035762787,
+        0.47999998927116394,
+        0.3799999952316284,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Book_Warm_Paper",
+      "base": [
+        0.8899999856948853,
+        0.8500000238418579,
+        0.7200000286102295,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_KL_Book_Gold_Foil",
+      "base": [
+        0.6499999761581421,
+        0.49000000953674316,
+        0.25,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.6499999761581421,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    },
+    {
+      "name": "URP_TV_Indicator",
+      "base": [
+        0.019999999552965164,
+        0.03999999910593033,
+        0.02500000037252903,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        0.4000000059604645,
+        0.75,
+        0.5,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null
+    }
+  ],
+  "excluded": [
+    "Cube",
+    "Light",
+    "Camera",
+    "Bedroom_View_Target",
+    "Bedroom_Preview_Camera",
+    "DAY_Window_Sun",
+    "DAY_Room_Softbox",
+    "DAY_City_Fill",
+    "Bedroom_Panoramic_Daylight",
+    "NIGHT_Sky_Backdrop",
+    "NIGHT_Bedside",
+    "NIGHT_Desk",
+    "NIGHT_FairyGlow",
+    "NIGHT_Lit_NYC_Window_00_00_0",
+    "NIGHT_Lit_NYC_Window_00_00_1",
+    "NIGHT_Lit_NYC_Window_00_00_2",
+    "NIGHT_Lit_NYC_Window_00_01_0",
+    "NIGHT_Lit_NYC_Window_00_01_1",
+    "NIGHT_Lit_NYC_Window_00_01_2",
+    "NIGHT_Lit_NYC_Window_00_03_0",
+    "NIGHT_Lit_NYC_Window_00_03_1",
+    "NIGHT_Lit_NYC_Window_00_03_2",
+    "NIGHT_Lit_NYC_Window_00_04_0",
+    "NIGHT_Lit_NYC_Window_00_04_1",
+    "NIGHT_Lit_NYC_Window_00_04_2",
+    "NIGHT_Lit_NYC_Window_00_06_1",
+    "NIGHT_Lit_NYC_Window_00_06_2",
+    "NIGHT_Lit_NYC_Window_00_07_0",
+    "NIGHT_Lit_NYC_Window_00_08_1",
+    "NIGHT_Lit_NYC_Window_00_08_2",
+    "NIGHT_Lit_NYC_Window_00_09_1",
+    "NIGHT_Lit_NYC_Window_00_09_2",
+    "NIGHT_Lit_NYC_Window_00_10_0",
+    "NIGHT_Lit_NYC_Window_00_10_1",
+    "NIGHT_Lit_NYC_Window_00_11_1",
+    "NIGHT_Lit_NYC_Window_00_11_2",
+    "NIGHT_Lit_NYC_Window_00_12_1",
+    "NIGHT_Lit_NYC_Window_00_13_1",
+    "NIGHT_Lit_NYC_Window_00_13_2",
+    "NIGHT_Lit_NYC_Window_01_00_0",
+    "NIGHT_Lit_NYC_Window_01_00_1",
+    "NIGHT_Lit_NYC_Window_01_00_2",
+    "NIGHT_Lit_NYC_Window_01_01_0",
+    "NIGHT_Lit_NYC_Window_01_01_2",
+    "NIGHT_Lit_NYC_Window_01_02_0",
+    "NIGHT_Lit_NYC_Window_01_02_1",
+    "NIGHT_Lit_NYC_Window_01_02_2",
+    "NIGHT_Lit_NYC_Window_01_03_0",
+    "NIGHT_Lit_NYC_Window_01_03_1",
+    "NIGHT_Lit_NYC_Window_01_03_2",
+    "NIGHT_Lit_NYC_Window_01_04_1",
+    "NIGHT_Lit_NYC_Window_01_04_2",
+    "NIGHT_Lit_NYC_Window_01_05_0",
+    "NIGHT_Lit_NYC_Window_01_05_1",
+    "NIGHT_Lit_NYC_Window_01_05_2",
+    "NIGHT_Lit_NYC_Window_01_06_0",
+    "NIGHT_Lit_NYC_Window_01_06_2",
+    "NIGHT_Lit_NYC_Window_01_07_0",
+    "NIGHT_Lit_NYC_Window_01_07_2",
+    "NIGHT_Lit_NYC_Window_01_08_0",
+    "NIGHT_Lit_NYC_Window_01_08_1",
+    "NIGHT_Lit_NYC_Window_01_09_0",
+    "NIGHT_Lit_NYC_Window_01_09_1",
+    "NIGHT_Lit_NYC_Window_01_09_2",
+    "NIGHT_Lit_NYC_Window_01_10_0",
+    "NIGHT_Lit_NYC_Window_01_10_1",
+    "NIGHT_Lit_NYC_Window_01_10_2",
+    "NIGHT_Lit_NYC_Window_02_00_2",
+    "NIGHT_Lit_NYC_Window_02_01_0",
+    "NIGHT_Lit_NYC_Window_02_02_0",
+    "NIGHT_Lit_NYC_Window_02_02_2",
+    "NIGHT_Lit_NYC_Window_02_03_1",
+    "NIGHT_Lit_NYC_Window_02_03_2",
+    "NIGHT_Lit_NYC_Window_02_04_0",
+    "NIGHT_Lit_NYC_Window_02_04_1",
+    "NIGHT_Lit_NYC_Window_02_04_2",
+    "NIGHT_Lit_NYC_Window_02_05_1",
+    "NIGHT_Lit_NYC_Window_02_05_2",
+    "NIGHT_Lit_NYC_Window_02_06_0",
+    "NIGHT_Lit_NYC_Window_02_06_1",
+    "NIGHT_Lit_NYC_Window_02_07_0",
+    "NIGHT_Lit_NYC_Window_02_07_1",
+    "NIGHT_Lit_NYC_Window_02_07_2",
+    "NIGHT_Lit_NYC_Window_02_08_1",
+    "NIGHT_Lit_NYC_Window_02_08_2",
+    "NIGHT_Lit_NYC_Window_02_09_0",
+    "NIGHT_Lit_NYC_Window_02_09_1",
+    "NIGHT_Lit_NYC_Window_02_09_2",
+    "NIGHT_Lit_NYC_Window_02_10_1",
+    "NIGHT_Lit_NYC_Window_02_10_2",
+    "NIGHT_Lit_NYC_Window_02_11_0",
+    "NIGHT_Lit_NYC_Window_02_11_1",
+    "NIGHT_Lit_NYC_Window_02_12_0",
+    "NIGHT_Lit_NYC_Window_02_12_1",
+    "NIGHT_Lit_NYC_Window_03_00_0",
+    "NIGHT_Lit_NYC_Window_03_00_2",
+    "NIGHT_Lit_NYC_Window_03_01_0",
+    "NIGHT_Lit_NYC_Window_03_01_1",
+    "NIGHT_Lit_NYC_Window_03_01_2",
+    "NIGHT_Lit_NYC_Window_03_02_0",
+    "NIGHT_Lit_NYC_Window_03_02_1",
+    "NIGHT_Lit_NYC_Window_03_03_1",
+    "NIGHT_Lit_NYC_Window_03_03_2",
+    "NIGHT_Lit_NYC_Window_03_04_0",
+    "NIGHT_Lit_NYC_Window_03_04_1",
+    "NIGHT_Lit_NYC_Window_03_04_2",
+    "NIGHT_Lit_NYC_Window_03_05_0",
+    "NIGHT_Lit_NYC_Window_03_05_2",
+    "NIGHT_Lit_NYC_Window_03_06_0",
+    "NIGHT_Lit_NYC_Window_03_06_2",
+    "NIGHT_Lit_NYC_Window_03_07_1",
+    "NIGHT_Lit_NYC_Window_03_09_0",
+    "NIGHT_Lit_NYC_Window_03_09_1",
+    "NIGHT_Lit_NYC_Window_03_09_2",
+    "NIGHT_Lit_NYC_Window_04_01_0",
+    "NIGHT_Lit_NYC_Window_04_02_0",
+    "NIGHT_Lit_NYC_Window_04_02_2",
+    "NIGHT_Lit_NYC_Window_04_03_2",
+    "NIGHT_Lit_NYC_Window_04_04_2",
+    "NIGHT_Lit_NYC_Window_04_06_0",
+    "NIGHT_Lit_NYC_Window_04_06_2",
+    "NIGHT_Lit_NYC_Window_04_07_2",
+    "NIGHT_Lit_NYC_Window_05_00_0",
+    "NIGHT_Lit_NYC_Window_05_00_1",
+    "NIGHT_Lit_NYC_Window_05_00_2",
+    "NIGHT_Lit_NYC_Window_05_01_2",
+    "NIGHT_Lit_NYC_Window_05_02_0",
+    "NIGHT_Lit_NYC_Window_05_02_2",
+    "NIGHT_Lit_NYC_Window_05_03_1",
+    "NIGHT_Lit_NYC_Window_05_04_2",
+    "NIGHT_Lit_NYC_Window_05_05_1",
+    "NIGHT_Lit_NYC_Window_05_06_0",
+    "NIGHT_Lit_NYC_Window_05_07_0",
+    "NIGHT_Lit_NYC_Window_05_07_1",
+    "NIGHT_Lit_NYC_Window_05_07_2",
+    "NIGHT_Lit_NYC_Window_05_08_0",
+    "NIGHT_Lit_NYC_Window_05_08_1",
+    "NIGHT_Lit_NYC_Window_05_08_2",
+    "NIGHT_Lit_NYC_Window_05_09_1",
+    "NIGHT_Lit_NYC_Window_05_09_2",
+    "NIGHT_Lit_NYC_Window_05_10_0",
+    "NIGHT_Lit_NYC_Window_05_10_2",
+    "NIGHT_Lit_NYC_Window_05_11_0",
+    "NIGHT_Lit_NYC_Window_06_00_0",
+    "NIGHT_Lit_NYC_Window_06_00_1",
+    "NIGHT_Lit_NYC_Window_06_00_2",
+    "NIGHT_Lit_NYC_Window_06_01_1",
+    "NIGHT_Lit_NYC_Window_06_01_2",
+    "NIGHT_Lit_NYC_Window_06_02_0",
+    "NIGHT_Lit_NYC_Window_06_02_2",
+    "NIGHT_Lit_NYC_Window_06_03_0",
+    "NIGHT_Lit_NYC_Window_06_03_1",
+    "NIGHT_Lit_NYC_Window_06_04_0",
+    "NIGHT_Lit_NYC_Window_06_04_1",
+    "NIGHT_Lit_NYC_Window_06_05_1",
+    "NIGHT_Lit_NYC_Window_06_06_0",
+    "NIGHT_Lit_NYC_Window_06_06_1",
+    "NIGHT_Lit_NYC_Window_06_07_0",
+    "NIGHT_Lit_NYC_Window_06_07_2",
+    "NIGHT_Lit_NYC_Window_06_08_1",
+    "NIGHT_Lit_NYC_Window_06_08_2",
+    "NIGHT_Lit_NYC_Window_07_00_0",
+    "NIGHT_Lit_NYC_Window_07_00_1",
+    "NIGHT_Lit_NYC_Window_07_00_2",
+    "NIGHT_Lit_NYC_Window_07_01_2",
+    "NIGHT_Lit_NYC_Window_07_02_0",
+    "NIGHT_Lit_NYC_Window_07_02_1",
+    "NIGHT_Lit_NYC_Window_07_02_2",
+    "NIGHT_Lit_NYC_Window_07_03_1",
+    "NIGHT_Lit_NYC_Window_07_03_2",
+    "NIGHT_Lit_NYC_Window_07_04_0",
+    "NIGHT_Lit_NYC_Window_07_04_2",
+    "NIGHT_Lit_NYC_Window_07_05_2",
+    "NIGHT_Lit_NYC_Window_07_06_1",
+    "NIGHT_Lit_NYC_Window_07_06_2",
+    "NIGHT_Lit_NYC_Window_07_07_1",
+    "NIGHT_Lit_NYC_Window_07_08_0",
+    "NIGHT_Lit_NYC_Window_07_09_0",
+    "NIGHT_Lit_NYC_Window_07_09_1",
+    "NIGHT_Lit_NYC_Window_07_09_2",
+    "NIGHT_Lit_NYC_Window_08_00_1",
+    "NIGHT_Lit_NYC_Window_08_01_0",
+    "NIGHT_Lit_NYC_Window_08_01_1",
+    "NIGHT_Lit_NYC_Window_08_01_2",
+    "NIGHT_Lit_NYC_Window_08_02_1",
+    "NIGHT_Lit_NYC_Window_08_03_0",
+    "NIGHT_Lit_NYC_Window_08_03_1",
+    "NIGHT_Lit_NYC_Window_08_03_2",
+    "NIGHT_Lit_NYC_Window_08_04_0",
+    "NIGHT_Lit_NYC_Window_08_04_1",
+    "NIGHT_Lit_NYC_Window_08_04_2",
+    "NIGHT_Lit_NYC_Window_08_05_1",
+    "NIGHT_Lit_NYC_Window_08_06_0",
+    "NIGHT_Lit_NYC_Window_08_06_1",
+    "NIGHT_Lit_NYC_Window_08_06_2",
+    "NIGHT_Lit_NYC_Window_08_07_0",
+    "NIGHT_Lit_NYC_Window_09_01_0",
+    "NIGHT_Lit_NYC_Window_09_01_1",
+    "NIGHT_Lit_NYC_Window_09_01_2",
+    "NIGHT_Lit_NYC_Window_09_02_0",
+    "NIGHT_Lit_NYC_Window_09_03_1",
+    "NIGHT_Lit_NYC_Window_09_04_2",
+    "NIGHT_Lit_NYC_Window_09_05_1",
+    "NIGHT_Lit_NYC_Window_09_06_0",
+    "NIGHT_Lit_NYC_Window_09_06_1",
+    "NIGHT_Lit_NYC_Window_09_07_1",
+    "NIGHT_Lit_NYC_Window_09_07_2",
+    "NIGHT_Lit_NYC_Window_10_00_0",
+    "NIGHT_Lit_NYC_Window_10_00_1",
+    "NIGHT_Lit_NYC_Window_10_01_1",
+    "NIGHT_Lit_NYC_Window_10_01_2",
+    "NIGHT_Lit_NYC_Window_10_02_1",
+    "NIGHT_Lit_NYC_Window_10_02_2",
+    "NIGHT_Lit_NYC_Window_10_03_0",
+    "NIGHT_Lit_NYC_Window_10_03_1",
+    "NIGHT_Lit_NYC_Window_10_03_2",
+    "NIGHT_Lit_NYC_Window_10_04_1",
+    "NIGHT_Lit_NYC_Window_10_04_2",
+    "NIGHT_Lit_NYC_Window_10_05_1",
+    "NIGHT_Lit_NYC_Window_10_05_2",
+    "NIGHT_Lit_NYC_Window_10_06_0",
+    "NIGHT_Lit_NYC_Window_10_07_1",
+    "NIGHT_Lit_NYC_Window_10_07_2",
+    "NIGHT_Lit_NYC_Window_10_08_0",
+    "NIGHT_Lit_NYC_Window_10_08_1",
+    "NIGHT_Lit_NYC_Window_10_08_2",
+    "NIGHT_Lit_NYC_Window_11_00_0",
+    "NIGHT_Lit_NYC_Window_11_00_1",
+    "NIGHT_Lit_NYC_Window_11_00_2",
+    "NIGHT_Lit_NYC_Window_11_01_1",
+    "NIGHT_Lit_NYC_Window_11_02_1",
+    "NIGHT_Lit_NYC_Window_11_03_0",
+    "NIGHT_Lit_NYC_Window_11_03_1",
+    "NIGHT_Lit_NYC_Window_11_03_2",
+    "NIGHT_Lit_NYC_Window_11_04_0",
+    "NIGHT_Lit_NYC_Window_11_04_1",
+    "NIGHT_Lit_NYC_Window_11_04_2",
+    "NIGHT_Lit_NYC_Window_11_05_0",
+    "NIGHT_Lit_NYC_Window_11_05_1",
+    "NIGHT_Lit_NYC_Window_11_06_0",
+    "NIGHT_Lit_NYC_Window_12_00_2",
+    "NIGHT_Lit_NYC_Window_12_01_2",
+    "NIGHT_Lit_NYC_Window_12_02_0",
+    "NIGHT_Lit_NYC_Window_12_02_1",
+    "NIGHT_Lit_NYC_Window_12_03_0",
+    "NIGHT_Lit_NYC_Window_12_03_1",
+    "NIGHT_Lit_NYC_Window_12_03_2",
+    "NIGHT_Lit_NYC_Window_12_04_1",
+    "NIGHT_Lit_NYC_Window_12_04_2",
+    "NIGHT_Lit_NYC_Window_12_05_2",
+    "NIGHT_Lit_NYC_Window_12_06_0",
+    "NIGHT_Lit_NYC_Window_12_06_1",
+    "NIGHT_Lit_NYC_Window_12_06_2",
+    "NIGHT_Lit_NYC_Window_13_00_1",
+    "NIGHT_Lit_NYC_Window_13_01_0",
+    "NIGHT_Lit_NYC_Window_13_01_1",
+    "NIGHT_Lit_NYC_Window_13_02_1",
+    "NIGHT_Lit_NYC_Window_13_02_2",
+    "NIGHT_Lit_NYC_Window_13_03_0",
+    "NIGHT_Lit_NYC_Window_13_03_2",
+    "NIGHT_Lit_NYC_Window_13_05_2",
+    "NIGHT_Lit_NYC_Window_13_06_2",
+    "NIGHT_Lit_NYC_Window_13_07_0",
+    "NIGHT_Lit_NYC_Window_13_07_1",
+    "NIGHT_Lit_NYC_Window_14_00_0",
+    "NIGHT_Lit_NYC_Window_14_00_1",
+    "NIGHT_Lit_NYC_Window_14_01_0",
+    "NIGHT_Lit_NYC_Window_14_01_1",
+    "NIGHT_Lit_NYC_Window_14_01_2",
+    "NIGHT_Lit_NYC_Window_14_02_0",
+    "NIGHT_Lit_NYC_Window_14_03_0",
+    "NIGHT_Lit_NYC_Window_14_03_2",
+    "NIGHT_Lit_NYC_Window_14_04_0",
+    "NIGHT_Lit_NYC_Window_14_06_1",
+    "NIGHT_Lit_NYC_Window_14_06_2",
+    "NIGHT_Lit_NYC_Window_14_07_1",
+    "NIGHT_Lit_NYC_Window_14_07_2",
+    "NIGHT_Lit_NYC_Window_14_08_1",
+    "NIGHT_Lit_NYC_Window_14_08_2",
+    "NIGHT_Lit_NYC_Window_14_09_0",
+    "NIGHT_Lit_NYC_Window_14_09_1",
+    "NIGHT_Lit_NYC_Window_14_09_2",
+    "NIGHT_Lit_NYC_Window_15_00_0",
+    "NIGHT_Lit_NYC_Window_15_01_1",
+    "NIGHT_Lit_NYC_Window_15_02_1",
+    "NIGHT_Lit_NYC_Window_15_02_2",
+    "NIGHT_Lit_NYC_Window_15_03_1",
+    "NIGHT_Lit_NYC_Window_15_03_2",
+    "NIGHT_Lit_NYC_Window_15_04_0",
+    "NIGHT_Lit_NYC_Window_15_04_2",
+    "NIGHT_Lit_NYC_Window_15_05_0",
+    "NIGHT_Lit_NYC_Window_15_05_1",
+    "NIGHT_Lit_NYC_Window_15_05_2",
+    "NIGHT_Lit_NYC_Window_15_07_0",
+    "NIGHT_Lit_NYC_Window_15_07_1",
+    "NIGHT_Lit_NYC_Window_15_07_2",
+    "NIGHT_Lit_NYC_Window_16_00_0",
+    "NIGHT_Lit_NYC_Window_16_00_1",
+    "NIGHT_Lit_NYC_Window_16_01_2",
+    "NIGHT_Lit_NYC_Window_16_03_0",
+    "NIGHT_Lit_NYC_Window_16_03_1",
+    "NIGHT_Lit_NYC_Window_16_03_2",
+    "NIGHT_Lit_NYC_Window_16_04_2",
+    "NIGHT_Lit_NYC_Window_16_05_1",
+    "NIGHT_Lit_NYC_Window_16_05_2",
+    "NIGHT_Lit_NYC_Window_16_06_1",
+    "NIGHT_Lit_NYC_Window_16_06_2",
+    "NIGHT_Lit_NYC_Window_16_07_0",
+    "NIGHT_Lit_NYC_Window_16_07_1",
+    "NIGHT_Lit_NYC_Window_16_07_2",
+    "NIGHT_Lit_NYC_Window_16_08_0",
+    "NIGHT_Lit_NYC_Window_16_08_1",
+    "NIGHT_Lit_NYC_Window_16_09_0",
+    "NIGHT_Lit_NYC_Window_16_09_2",
+    "NIGHT_Lit_NYC_Window_16_10_1",
+    "NIGHT_Lit_NYC_Window_16_10_2",
+    "NIGHT_Lit_NYC_Window_16_11_0",
+    "NIGHT_Lit_NYC_Window_16_12_1",
+    "NIGHT_Lit_NYC_Window_16_12_2",
+    "NIGHT_Lit_NYC_Window_16_13_0",
+    "NIGHT_Lit_NYC_Window_16_13_1",
+    "NIGHT_Lit_NYC_Window_17_00_0",
+    "NIGHT_Lit_NYC_Window_17_00_1",
+    "NIGHT_Lit_NYC_Window_17_01_0",
+    "NIGHT_Lit_NYC_Window_17_01_2",
+    "NIGHT_Lit_NYC_Window_17_02_0",
+    "NIGHT_Lit_NYC_Window_17_03_0",
+    "NIGHT_Lit_NYC_Window_17_03_2",
+    "NIGHT_Lit_NYC_Window_17_04_1",
+    "NIGHT_Lit_NYC_Window_17_05_0",
+    "NIGHT_Lit_NYC_Window_17_05_1",
+    "NIGHT_Lit_NYC_Window_17_05_2",
+    "NIGHT_Lit_NYC_Window_17_06_0",
+    "NIGHT_Lit_NYC_Window_17_06_1",
+    "NIGHT_Lit_NYC_Window_17_07_0",
+    "NIGHT_Lit_NYC_Window_17_07_1",
+    "NIGHT_Lit_NYC_Window_17_08_0",
+    "NIGHT_Lit_NYC_Window_17_08_1",
+    "NIGHT_Lit_NYC_Window_17_10_0",
+    "NIGHT_Lit_NYC_Window_18_00_2",
+    "NIGHT_Lit_NYC_Window_18_01_0",
+    "NIGHT_Lit_NYC_Window_18_01_1",
+    "NIGHT_Lit_NYC_Window_18_01_2",
+    "NIGHT_Lit_NYC_Window_18_02_0",
+    "NIGHT_Lit_NYC_Window_18_02_1",
+    "NIGHT_Lit_NYC_Window_18_02_2",
+    "NIGHT_Lit_NYC_Window_18_04_0",
+    "NIGHT_Lit_NYC_Window_18_04_1",
+    "NIGHT_Lit_NYC_Window_18_04_2",
+    "NIGHT_Lit_NYC_Window_18_05_0",
+    "NIGHT_Lit_NYC_Window_18_05_1",
+    "NIGHT_Lit_NYC_Window_18_05_2",
+    "NIGHT_Lit_NYC_Window_18_06_0",
+    "NIGHT_Lit_NYC_Window_18_06_1",
+    "NIGHT_Lit_NYC_Window_18_06_2",
+    "NIGHT_Lit_NYC_Window_18_07_2",
+    "NIGHT_Lit_NYC_Window_18_08_0",
+    "NIGHT_Lit_NYC_Window_18_08_2",
+    "NIGHT_Lit_NYC_Window_18_09_0",
+    "NIGHT_Lit_NYC_Window_18_09_1",
+    "NIGHT_Lit_NYC_Window_19_00_2",
+    "NIGHT_Lit_NYC_Window_19_01_0",
+    "NIGHT_Lit_NYC_Window_19_01_1",
+    "NIGHT_Lit_NYC_Window_19_02_0",
+    "NIGHT_Lit_NYC_Window_19_02_1",
+    "NIGHT_Lit_NYC_Window_19_02_2",
+    "NIGHT_Lit_NYC_Window_19_03_0",
+    "NIGHT_Lit_NYC_Window_19_03_1",
+    "NIGHT_Lit_NYC_Window_19_03_2",
+    "NIGHT_Lit_NYC_Window_19_04_0",
+    "NIGHT_Lit_NYC_Window_19_04_1",
+    "NIGHT_Lit_NYC_Window_19_05_1",
+    "NIGHT_Lit_NYC_Window_19_05_2",
+    "NIGHT_Lit_NYC_Window_19_06_0",
+    "NIGHT_Lit_NYC_Window_19_06_1",
+    "NIGHT_Lit_NYC_Window_19_07_0",
+    "NIGHT_Lit_NYC_Window_19_07_2",
+    "NIGHT_Lit_NYC_Window_19_08_0",
+    "NIGHT_Lit_NYC_Window_19_08_1",
+    "NIGHT_Lit_NYC_Window_19_08_2",
+    "Bathroom_Soft_Overhead",
+    "Bathroom_Sconce_Light_0",
+    "Bathroom_Sconce_Light_1",
+    "Bathroom_Mirror_Soft_Light",
+    "Living_Table_Lamp_Light",
+    "Living_Console_Lamp_Light",
+    "Living_Pendant_Light_0",
+    "Living_Pendant_Light_1",
+    "Living_Window_Daylight",
+    "Living_NIGHT_Sky",
+    "Living_NIGHT_NYC_Window_11_00_1",
+    "Living_NIGHT_NYC_Window_11_00_2",
+    "Living_NIGHT_NYC_Window_11_01_1",
+    "Living_NIGHT_NYC_Window_11_01_2",
+    "Living_NIGHT_NYC_Window_11_02_1",
+    "Living_NIGHT_NYC_Window_11_02_2",
+    "Living_NIGHT_NYC_Window_11_03_1",
+    "Living_NIGHT_NYC_Window_11_03_2",
+    "Living_NIGHT_NYC_Window_11_04_1",
+    "Living_NIGHT_NYC_Window_11_04_2",
+    "Living_NIGHT_NYC_Window_11_05_1",
+    "Living_NIGHT_NYC_Window_11_05_2",
+    "Living_NIGHT_NYC_Window_11_06_1",
+    "Living_NIGHT_NYC_Window_11_06_2",
+    "Living_NIGHT_NYC_Window_11_07_1",
+    "Living_NIGHT_NYC_Window_11_07_2",
+    "Living_NIGHT_NYC_Window_12_00_0",
+    "Living_NIGHT_NYC_Window_12_00_2",
+    "Living_NIGHT_NYC_Window_12_01_0",
+    "Living_NIGHT_NYC_Window_12_01_2",
+    "Living_NIGHT_NYC_Window_12_02_0",
+    "Living_NIGHT_NYC_Window_12_02_2",
+    "Living_NIGHT_NYC_Window_12_03_0",
+    "Living_NIGHT_NYC_Window_12_03_2",
+    "Living_NIGHT_NYC_Window_12_04_0",
+    "Living_NIGHT_NYC_Window_12_04_2",
+    "Living_NIGHT_NYC_Window_12_05_0",
+    "Living_NIGHT_NYC_Window_12_05_2",
+    "Living_NIGHT_NYC_Window_12_06_0",
+    "Living_NIGHT_NYC_Window_12_06_2",
+    "Living_NIGHT_NYC_Window_13_00_0",
+    "Living_NIGHT_NYC_Window_13_00_1",
+    "Living_NIGHT_NYC_Window_13_01_0",
+    "Living_NIGHT_NYC_Window_13_01_1",
+    "Living_NIGHT_NYC_Window_13_02_0",
+    "Living_NIGHT_NYC_Window_13_02_1",
+    "Living_NIGHT_NYC_Window_13_03_0",
+    "Living_NIGHT_NYC_Window_13_03_1",
+    "Living_NIGHT_NYC_Window_13_04_0",
+    "Living_NIGHT_NYC_Window_13_04_1",
+    "Living_NIGHT_NYC_Window_13_05_0",
+    "Living_NIGHT_NYC_Window_13_05_1",
+    "Living_NIGHT_NYC_Window_13_06_0",
+    "Living_NIGHT_NYC_Window_13_06_1",
+    "Living_NIGHT_NYC_Window_13_07_0",
+    "Living_NIGHT_NYC_Window_13_07_1",
+    "Living_NIGHT_NYC_Window_14_00_1",
+    "Living_NIGHT_NYC_Window_14_00_2",
+    "Living_NIGHT_NYC_Window_14_01_1",
+    "Living_NIGHT_NYC_Window_14_01_2",
+    "Living_NIGHT_NYC_Window_14_02_1",
+    "Living_NIGHT_NYC_Window_14_02_2",
+    "Living_NIGHT_NYC_Window_14_03_1",
+    "Living_NIGHT_NYC_Window_14_03_2",
+    "Living_NIGHT_NYC_Window_14_04_1",
+    "Living_NIGHT_NYC_Window_14_04_2",
+    "Living_NIGHT_NYC_Window_14_05_1",
+    "Living_NIGHT_NYC_Window_14_05_2",
+    "Living_NIGHT_NYC_Window_14_06_1",
+    "Living_NIGHT_NYC_Window_14_06_2",
+    "Living_NIGHT_NYC_Window_14_07_1",
+    "Living_NIGHT_NYC_Window_14_07_2",
+    "Living_NIGHT_NYC_Window_14_08_1",
+    "Living_NIGHT_NYC_Window_14_08_2",
+    "Living_NIGHT_NYC_Window_14_09_1",
+    "Living_NIGHT_NYC_Window_14_09_2",
+    "Living_NIGHT_NYC_Window_15_00_0",
+    "Living_NIGHT_NYC_Window_15_00_2",
+    "Living_NIGHT_NYC_Window_15_01_0",
+    "Living_NIGHT_NYC_Window_15_01_2",
+    "Living_NIGHT_NYC_Window_15_02_0",
+    "Living_NIGHT_NYC_Window_15_02_2",
+    "Living_NIGHT_NYC_Window_15_03_0",
+    "Living_NIGHT_NYC_Window_15_03_2",
+    "Living_NIGHT_NYC_Window_15_04_0",
+    "Living_NIGHT_NYC_Window_15_04_2",
+    "Living_NIGHT_NYC_Window_15_05_0",
+    "Living_NIGHT_NYC_Window_15_05_2",
+    "Living_NIGHT_NYC_Window_15_06_0",
+    "Living_NIGHT_NYC_Window_15_06_2",
+    "Living_NIGHT_NYC_Window_15_07_0",
+    "Living_NIGHT_NYC_Window_15_07_2",
+    "Living_NIGHT_NYC_Window_16_00_0",
+    "Living_NIGHT_NYC_Window_16_00_1",
+    "Living_NIGHT_NYC_Window_16_01_0",
+    "Living_NIGHT_NYC_Window_16_01_1",
+    "Living_NIGHT_NYC_Window_16_02_0",
+    "Living_NIGHT_NYC_Window_16_02_1",
+    "Living_NIGHT_NYC_Window_16_03_0",
+    "Living_NIGHT_NYC_Window_16_03_1",
+    "Living_NIGHT_NYC_Window_16_04_0",
+    "Living_NIGHT_NYC_Window_16_04_1",
+    "Living_NIGHT_NYC_Window_16_05_0",
+    "Living_NIGHT_NYC_Window_16_05_1",
+    "Living_NIGHT_NYC_Window_16_06_0",
+    "Living_NIGHT_NYC_Window_16_06_1",
+    "Living_NIGHT_NYC_Window_16_07_0",
+    "Living_NIGHT_NYC_Window_16_07_1",
+    "Living_NIGHT_NYC_Window_16_08_0",
+    "Living_NIGHT_NYC_Window_16_08_1",
+    "Living_NIGHT_NYC_Window_16_09_0",
+    "Living_NIGHT_NYC_Window_16_09_1",
+    "Living_NIGHT_NYC_Window_16_10_0",
+    "Living_NIGHT_NYC_Window_16_10_1",
+    "Living_NIGHT_NYC_Window_16_11_0",
+    "Living_NIGHT_NYC_Window_16_11_1",
+    "Living_NIGHT_NYC_Window_16_12_0",
+    "Living_NIGHT_NYC_Window_16_12_1",
+    "Living_NIGHT_NYC_Window_16_13_0",
+    "Living_NIGHT_NYC_Window_16_13_1",
+    "Living_NIGHT_NYC_Window_17_00_1",
+    "Living_NIGHT_NYC_Window_17_00_2",
+    "Living_NIGHT_NYC_Window_17_01_1",
+    "Living_NIGHT_NYC_Window_17_01_2",
+    "Living_NIGHT_NYC_Window_17_02_1",
+    "Living_NIGHT_NYC_Window_17_02_2",
+    "Living_NIGHT_NYC_Window_17_03_1",
+    "Living_NIGHT_NYC_Window_17_03_2",
+    "Living_NIGHT_NYC_Window_17_04_1",
+    "Living_NIGHT_NYC_Window_17_04_2",
+    "Living_NIGHT_NYC_Window_17_05_1",
+    "Living_NIGHT_NYC_Window_17_05_2",
+    "Living_NIGHT_NYC_Window_17_06_1",
+    "Living_NIGHT_NYC_Window_17_06_2",
+    "Living_NIGHT_NYC_Window_17_07_1",
+    "Living_NIGHT_NYC_Window_17_07_2",
+    "Living_NIGHT_NYC_Window_17_08_1",
+    "Living_NIGHT_NYC_Window_17_08_2",
+    "Living_NIGHT_NYC_Window_17_09_1",
+    "Living_NIGHT_NYC_Window_17_09_2",
+    "Living_NIGHT_NYC_Window_17_10_1",
+    "Living_NIGHT_NYC_Window_17_10_2",
+    "Living_NIGHT_NYC_Window_18_00_0",
+    "Living_NIGHT_NYC_Window_18_00_2",
+    "Living_NIGHT_NYC_Window_18_01_0",
+    "Living_NIGHT_NYC_Window_18_01_2",
+    "Living_NIGHT_NYC_Window_18_02_0",
+    "Living_NIGHT_NYC_Window_18_02_2",
+    "Living_NIGHT_NYC_Window_18_03_0",
+    "Living_NIGHT_NYC_Window_18_03_2",
+    "Living_NIGHT_NYC_Window_18_04_0",
+    "Living_NIGHT_NYC_Window_18_04_2",
+    "Living_NIGHT_NYC_Window_18_05_0",
+    "Living_NIGHT_NYC_Window_18_05_2",
+    "Living_NIGHT_NYC_Window_18_06_0",
+    "Living_NIGHT_NYC_Window_18_06_2",
+    "Living_NIGHT_NYC_Window_18_07_0",
+    "Living_NIGHT_NYC_Window_18_07_2",
+    "Living_NIGHT_NYC_Window_18_08_0",
+    "Living_NIGHT_NYC_Window_18_08_2",
+    "Living_NIGHT_NYC_Window_18_09_0",
+    "Living_NIGHT_NYC_Window_18_09_2",
+    "Living_NIGHT_NYC_Window_19_00_0",
+    "Living_NIGHT_NYC_Window_19_00_1",
+    "Living_NIGHT_NYC_Window_19_01_0",
+    "Living_NIGHT_NYC_Window_19_01_1",
+    "Living_NIGHT_NYC_Window_19_02_0",
+    "Living_NIGHT_NYC_Window_19_02_1",
+    "Living_NIGHT_NYC_Window_19_03_0",
+    "Living_NIGHT_NYC_Window_19_03_1",
+    "Living_NIGHT_NYC_Window_19_04_0",
+    "Living_NIGHT_NYC_Window_19_04_1",
+    "Living_NIGHT_NYC_Window_19_05_0",
+    "Living_NIGHT_NYC_Window_19_05_1",
+    "Living_NIGHT_NYC_Window_19_06_0",
+    "Living_NIGHT_NYC_Window_19_06_1",
+    "Living_NIGHT_NYC_Window_19_07_0",
+    "Living_NIGHT_NYC_Window_19_07_1",
+    "Living_NIGHT_NYC_Window_19_08_0",
+    "Living_NIGHT_NYC_Window_19_08_1",
+    "Fridge_Interior_Light",
+    "PC_Screen_Soft_Glow"
+  ],
+  "warnings": [],
+  "staticFrame": 1,
+  "roomDimensions": {
+    "Bedroom": [
+      7,
+      7
+    ],
+    "Bathroom": [
+      6,
+      5
+    ],
+    "KitchenLiving": [
+      10,
+      8
+    ]
+  },
+  "animationExported": false
+}
