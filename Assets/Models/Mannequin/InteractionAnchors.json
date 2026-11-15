@@ -1,0 +1,19 @@
+{
+  "space": "Unity Apartment prefab local; metres; yaw around +Y",
+  "anchors": [
+    {"name": "NPC_Align_Book", "position": [-1.29, 0, -8.03], "yaw": 0, "clips": ["TakeBook"]},
+    {"name": "NPC_Align_Sofa", "position": [-1.45, 0, -11.52], "yaw": -90, "clips": ["SitDown", "SittingIdle", "StandUp"]},
+    {"name": "NPC_Align_Bed", "position": [-3.13, 0, -1.43], "yaw": -90, "clips": ["LieDown", "SleepingIdle", "WakeUp"]},
+    {"name": "NPC_Align_Shower", "position": [-12.75, 0.115, -4.15], "yaw": 180, "clips": ["TakeShowerEnter", "ShowerLoop"]},
+    {"name": "NPC_Align_Fridge", "position": [-9.44, 0, -13.865], "yaw": 180, "clips": ["OpenFridge", "CloseFridge"]},
+    {"name": "NPC_Align_Eat", "position": [-6.13, 0, -9.48], "yaw": -90, "clips": ["EatFood"]}
+  ],
+  "events": {
+    "TakeBook": [{"name":"GRAB_BOOK","frame":53},{"name":"BOOK_CLEAR_OF_SHELF","frame":76}],
+    "OpenFridge": [{"name":"GRAB_FRIDGE_HANDLE","frame":61},{"name":"DOOR_OPEN","frame":129},{"name":"GRAB_FOOD","frame":187}],
+    "CloseFridge": [{"name":"GRAB_FRIDGE_HANDLE","frame":52},{"name":"DOOR_CLOSED","frame":105}],
+    "EatFood": [{"name":"FOOD_TO_MOUTH","frame":35}]
+  },
+  "frameToSeconds": "(frame - 1) / 24",
+  "walkSpeedMetersPerSecond": 0.734694
+}

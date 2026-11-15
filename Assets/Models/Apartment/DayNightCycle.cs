@@ -83,8 +83,14 @@ public sealed class DayNightCycle : MonoBehaviour
         Color day = daySky.GetColor(BaseColor);
         sky = new Material(daySky) { name = "Apartment sky (runtime)" };
         sky.EnableKeyword("_EMISSION");
+        sky.SetFloat("_ReceiveShadows", 0f);
+        sky.EnableKeyword("_RECEIVE_SHADOWS_OFF");
         foreach (var backdrop in skies)
+        {
             backdrop.sharedMaterial = sky;
+            backdrop.shadowCastingMode = ShadowCastingMode.Off;
+            backdrop.receiveShadows = false;
+        }
 
         skyColors = Palette(night, new Color(.90f, .55f, .57f),
             day, new Color(1f, .47f, .30f));
@@ -294,8 +300,14 @@ public sealed class DayNightCycle : MonoBehaviour
     void FrameDefaultCamera()
     {
         var camera = Camera.main;
-        if (!camera || camera.gameObject.scene != gameObject.scene ||
-            Vector3.Distance(camera.transform.position, new Vector3(0f, 1f, -10f)) > .01f ||
+        if (!camera || camera.gameObject.scene != gameObject.scene)
+            return;
+        if (camera.TryGetComponent<ThirdPersonMannequinCamera>(out _))
+        {
+            previewCamera = camera;
+            return;
+        }
+        if (Vector3.Distance(camera.transform.position, new Vector3(0f, 1f, -10f)) > .01f ||
             Quaternion.Angle(camera.transform.rotation, Quaternion.identity) > .1f)
             return;
 
