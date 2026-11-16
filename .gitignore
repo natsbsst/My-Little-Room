@@ -46,3 +46,10 @@ sysinfo.txt
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Duplicate folder from downloaded archive
+/My-Little-Room-main/
+
+# Backend build caches
+**/[Bb]in/
+**/[Oo]bj/

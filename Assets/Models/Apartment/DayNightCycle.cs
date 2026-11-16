@@ -37,6 +37,11 @@ public sealed class DayNightCycle : MonoBehaviour
     float hour = 5f;
 
     public float CurrentHour => hour;
+    // Session counters for future database records; menus and pause do not advance them.
+    [SerializeField] double sessionPlaySeconds;
+    public double SessionPlaySeconds => sessionPlaySeconds;
+    public double TotalGameHours => 5.0 + sessionPlaySeconds / SecondsPerHour;
+    public int CurrentDay => (int)Math.Floor(TotalGameHours / 24.0) + 1;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static void Install()
@@ -48,6 +53,11 @@ public sealed class DayNightCycle : MonoBehaviour
     }
 
     static void OnSceneLoaded(Scene scene, LoadSceneMode _)
+    {
+        EnsureInScene(scene);
+    }
+
+    public static void EnsureInScene(Scene scene)
     {
         if (!scene.isLoaded)
             return;
@@ -144,11 +154,12 @@ public sealed class DayNightCycle : MonoBehaviour
     void Update()
     {
         if (sky)
-            Advance(Time.unscaledDeltaTime);
+            Advance(Time.deltaTime);
     }
 
     void Advance(double seconds)
     {
+        if (!manualTime && seconds > 0) sessionPlaySeconds += seconds;
         elapsedSeconds = manualTime ? Mathf.Repeat(previewHour, 24f) * SecondsPerHour
             : (elapsedSeconds + seconds) % CycleSeconds;
         hour = (float)(elapsedSeconds / SecondsPerHour);

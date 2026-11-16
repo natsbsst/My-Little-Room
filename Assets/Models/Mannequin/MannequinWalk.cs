@@ -11,6 +11,7 @@ public sealed class MannequinWalk : MonoBehaviour
 {
     const float WalkSpeed = 2.5f;
     const float TurnSpeed = 140f;
+    [SerializeField, Min(0.1f)] float jumpHeight = 0.8f;
     static readonly int Speed = Animator.StringToHash("Speed");
     static readonly int Idle = Animator.StringToHash("Idle");
     static readonly int Walk = Animator.StringToHash("Walk");
@@ -20,6 +21,19 @@ public sealed class MannequinWalk : MonoBehaviour
     NavMeshAgent agent;
     DoorController[] doors;
     float verticalSpeed;
+    public bool TryJump()
+    {
+        var mode = GetComponent<ControlModeManager>();
+        var interaction = GetComponent<ManualInteraction>();
+        if (!enabled || !body || !body.enabled || !body.isGrounded || verticalSpeed > 0f ||
+            Time.timeScale <= 0f || Physics.gravity.y >= 0f ||
+            (mode && mode.IsAutoMode) || (interaction && interaction.IsBusy)) return false;
+        var state = animator.GetCurrentAnimatorStateInfo(0).shortNameHash;
+        if (state != Idle && state != Walk) return false;
+        StopNavigation();
+        verticalSpeed = Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
+        return true;
+    }
     public bool IsNavigating => agent && agent.enabled && agent.isOnNavMesh &&
         (agent.pathPending || (agent.hasPath && agent.remainingDistance > agent.stoppingDistance));
 
@@ -64,6 +78,8 @@ public sealed class MannequinWalk : MonoBehaviour
         var mannequin = scene.GetRootGameObjects().FirstOrDefault(root => root.name == "MyLittleRoom_Mannequin");
         if (mannequin && !mannequin.GetComponent<MannequinWalk>())
             mannequin.AddComponent<MannequinWalk>();
+        if (mannequin && !mannequin.GetComponent<LifeBootstrap>())
+            mannequin.AddComponent<LifeBootstrap>();
         if (mannequin && Camera.main && Camera.main.gameObject.scene == scene)
         {
             var camera = Camera.main;
@@ -112,17 +128,24 @@ public sealed class MannequinWalk : MonoBehaviour
         var state = animator.GetCurrentAnimatorStateInfo(0);
         bool canWalk = state.shortNameHash == Idle || state.shortNameHash == Walk;
         var keyboard = Keyboard.current;
-        float forward = 0f, turn = 0f;
-        if (canWalk && Application.isFocused && keyboard != null)
+        float forward = 0f, strafe = 0f;
+        var mode = GetComponent<ControlModeManager>();
+        bool manual = !mode || !mode.IsAutoMode;
+        if (canWalk && manual && Time.timeScale > 0 && Application.isFocused && keyboard != null)
         {
             forward = (keyboard.wKey.isPressed ? 1f : 0f) - (keyboard.sKey.isPressed ? 1f : 0f);
-            turn = (keyboard.dKey.isPressed ? 1f : 0f) - (keyboard.aKey.isPressed ? 1f : 0f);
+            strafe = (keyboard.dKey.isPressed ? 1f : 0f) - (keyboard.aKey.isPressed ? 1f : 0f);
+            if (keyboard.spaceKey.wasPressedThisFrame) TryJump();
         }
-        if (forward != 0f || turn != 0f)
+        if (forward != 0f || strafe != 0f)
         {
             StopNavigation(); // Ручной ввод получает приоритет без второго двигателя.
-            transform.rotation = Quaternion.AngleAxis(turn * TurnSpeed * dt, Vector3.up) * transform.rotation;
-            velocity = transform.forward * (forward * WalkSpeed);
+            var view = Camera.main ? Camera.main.transform : transform;
+            var facing = Vector3.ProjectOnPlane(view.forward, Vector3.up).normalized;
+            var right = Vector3.Cross(Vector3.up, facing);
+            velocity = Vector3.ClampMagnitude(facing * forward + right * strafe, 1f) * WalkSpeed;
+            if (velocity.sqrMagnitude > .001f)
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(velocity), 540f * dt);
         }
         else if (canWalk && IsNavigating)
         {
@@ -144,7 +167,8 @@ public sealed class MannequinWalk : MonoBehaviour
         // Синхронизируем поворот дверных Collider до CharacterController.Move.
         Physics.SyncTransforms();
         Vector3 before = transform.position;
-        body.Move((velocity + Vector3.up * verticalSpeed) * dt);
+        var collisions = body.Move((velocity + Vector3.up * verticalSpeed) * dt);
+        if ((collisions & CollisionFlags.Above) != 0 && verticalSpeed > 0f) verticalSpeed = 0f;
         if (agent && agent.enabled && agent.isOnNavMesh)
         {
             agent.nextPosition = transform.position;
