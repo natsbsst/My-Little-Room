@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 /// <summary>Автоматическая дверь; не зависит от способа управления персонажем.</summary>
 [DisallowMultipleComponent]
@@ -24,6 +25,7 @@ public sealed class DoorController : MonoBehaviour
     bool wantsOpen;
     bool initialized;
     CharacterController characterBody;
+    NavMeshObstacle[] openLeafObstacles;
 
     public float OpenFraction => progress;
     public bool WantsOpen => wantsOpen;
@@ -46,6 +48,22 @@ public sealed class DoorController : MonoBehaviour
             ? doorHinge.parent.InverseTransformDirection(Vector3.up).normalized : Vector3.up;
         fallbackCenter = doorwayCenter ? doorwayCenter.position : doorHinge.position;
         characterBody = targetCharacter.GetComponent<CharacterController>();
+        var obstacles = new System.Collections.Generic.List<NavMeshObstacle>();
+        foreach (var collider in doorColliders)
+        {
+            var box = collider as BoxCollider;
+            if (!box) continue;
+            var obstacle = box.GetComponent<NavMeshObstacle>();
+            if (!obstacle) obstacle = box.gameObject.AddComponent<NavMeshObstacle>();
+            obstacle.shape = NavMeshObstacleShape.Box;
+            obstacle.center = box.center;
+            obstacle.size = box.size;
+            obstacle.carving = true;
+            obstacle.carveOnlyStationary = false;
+            obstacle.enabled = false;
+            obstacles.Add(obstacle);
+        }
+        openLeafObstacles = obstacles.ToArray();
         initialized = true;
     }
 
@@ -90,6 +108,10 @@ public sealed class DoorController : MonoBehaviour
                     if (!wantsOpen) wantsOpen = true;
                     break;
                 }
+        // The closed doorway must remain plannable so approaching actors can open it.
+        // Once open, carve the physical leaf so paths go around it instead of through it.
+        foreach (var obstacle in openLeafObstacles)
+            if (obstacle) obstacle.enabled = progress >= .98f;
     }
 
     void OnValidate()
